@@ -1,1 +1,6 @@
-This is the module for calculating ROI
+# This is the module for calculating ROI
+## Please make sure to refrence the pipfile for all the packages that need to be installed in your environemnt
+##Please make sure the programs are run with all the csv files and and subfolders in their environemnet please, a lot of the csv file were used for tracking transformations of the data, and many programs refer to specific ones.
+
+This is an entire project that has multiple programs which serve different functionst, to see the model and the resulting scatter plot one would run "CalcRevenue2" and follow the instructions printed on to the terminal. To see cool and relevant graphs like Heatmap and 3d scatter plot, one would run "mostTheGraphs" and follow the instructions printed on to the terminal'.
+The other two programs "MergCSV" and "ArtistSeer" have some pre-processing elements in them, and were used to get the data to its final state that is "ProcessedData". For the sake of comparison, if one were to open: "maininput.csv", "outputting/output4.csv" and "ProcessedData.csv", they can see how the data was transformed from start to finish respectively. Running "ArtistSeer", and "MergeCSV" is not advised as "ArtistSeer" which matches the names of artist to their genres in the genre folder" can take over 15 minutes as is. After both of those programs fulfilled their goal of producing a valid dataset, they are now deprecated. 
