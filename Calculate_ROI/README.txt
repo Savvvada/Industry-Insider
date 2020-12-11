@@ -1,4 +1,4 @@
-# This is the module for calculating ROI
+# This is the module for calculating the revenue after 1-month release of an album
 ## Please make sure to refrence the pipfile for all the packages that need to be installed in your environemnt
 ##Please make sure the programs are run with all the csv files and and subfolders in their environemnet please, a lot of the csv file were used for tracking transformations of the data, and many programs refer to specific ones.
 
